@@ -47,6 +47,14 @@ function getFullCalendarDate(date, locale) {
 }
 
 
+//display region name
+
+function RegoneName(locel="us",rigoneCode="BD"){
+  return new Intl.DisplayNames(locel,{
+    type:"region",
+    style:"long"
+  }).of(rigoneCode)
+}
 
 
 
