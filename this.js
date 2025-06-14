@@ -1,4 +1,3 @@
-"use strict"
 
 //Inside a Function (Non-strict mode)
 function useThisInsideFun(){
